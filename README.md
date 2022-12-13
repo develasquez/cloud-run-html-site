@@ -84,7 +84,7 @@ Edit the package.json file to specify that the node server.js command should be 
 
 ### Define a Dockerfile
 
-Create a file named dockerfile with the next code
+Create a file named Dockerfile with the next code
 
 The Dockerfile defines a Docker image for the project. It starts from the node:alpine base image, which is a lightweight version of the Node.js runtime. It then sets the working directory, copies the project files and dependencies, and sets the default command to start the server.
 
