@@ -17,7 +17,7 @@ This script is for **educational purposes only**, is **not certified** and is **
  limitations under the License.
 
 
-## Deploy an HTML site to Cloud Run
+## Deploy a HTML site to Cloud Run
 
 The first step installs the html5-boilerplate package globally using npm, the default package manager for the JavaScript runtime environment Node.js.
 The next step creates a new project using the create-html5-boilerplate command, and then changes into the directory of the new project. The following two commands, npm install and npm start, install the project's dependencies and start the development server, respectively.
