@@ -45,7 +45,7 @@ var StaticServer = require('static-server');
 var server = new StaticServer({
   rootPath: '.',
   port: process.env.PORT || 8080,
-  name: 'help',
+  name: 'new-site',
   host: '0.0.0.0',
   cors: '*',
   followSymlink: true,
