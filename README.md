@@ -130,7 +130,7 @@ spec:
 ### Deploy your service to Google Cloud
 
 create a deploy.sh file with the next code
-The deploy.sh file is a shell script that can be used to build and deploy the container image specified in the deployment.yaml file. The script first builds the image and then replaces the service with the new image using the gcloud command-line tool. The script can be made executable by running the chmod +x deploy.sh command.
+The deploy.sh file is a shell script that can be used to build and deploy the container image specified in the deployment.yaml file. The script first builds the image and then replaces the service with the new image using the gcloud command-line tool. 
 
 ```sh
 #!/bin/bash
@@ -142,12 +142,10 @@ gcloud run services add-iam-policy-binding new-site \
     --member="allUsers" \
     --role="roles/run.invoker"
 ```
+The script can be made executable by running the chmod +x deploy.sh command.
 
 ```sh
 chmod +x deploy.sh
-```
-
-```sh
 ./deploy.sh
 ```
 
