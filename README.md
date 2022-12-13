@@ -23,14 +23,14 @@ The first step installs the html5-boilerplate package globally using npm, the de
 The next step creates a new project using the create-html5-boilerplate command, and then changes into the directory of the new project. The following two commands, npm install and npm start, install the project's dependencies and start the development server, respectively.
 
 ```sh
-npm install html5-boilerplate -g
+npm install html5-boilerplate
 
 
 npx create-html5-boilerplate new-site
 
 cd new-site
 npm install
-npm start
+
 ```
 
 
